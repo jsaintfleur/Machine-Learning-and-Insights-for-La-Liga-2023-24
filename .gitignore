@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 
 kaggle.env
+.DS_Store
