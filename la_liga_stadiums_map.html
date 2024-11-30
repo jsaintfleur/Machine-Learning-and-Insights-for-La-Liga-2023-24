@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ca6a381ea0149156c9abfe1d7152871a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ca6a381ea0149156c9abfe1d7152871a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ca6a381ea0149156c9abfe1d7152871a = L.map(
+                "map_ca6a381ea0149156c9abfe1d7152871a",
+                {
+                    center: [40.4637, -3.7492],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc3d365eece4d593370ed75650f1bcc2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cc3d365eece4d593370ed75650f1bcc2.addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+            var circle_marker_e9461a1eea7fd0ce1432b7f03bdee6aa = L.circleMarker(
+                [40.4531, -3.6884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.1044, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_f336dfcac804b73240c4e56536ff2fbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f19c23349728300b32bd7380aa73c13 = $(`<div id="html_2f19c23349728300b32bd7380aa73c13" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Real Madrid<br><b>Stadium:</b> Santiago Bernabeu<br><b>Capacity:</b> 81044<br><b>City:</b> Madrid</div>`)[0];
+                popup_f336dfcac804b73240c4e56536ff2fbd.setContent(html_2f19c23349728300b32bd7380aa73c13);
+            
+        
+
+        circle_marker_e9461a1eea7fd0ce1432b7f03bdee6aa.bindPopup(popup_f336dfcac804b73240c4e56536ff2fbd)
+        ;
+
+        
+    
+    
+            var circle_marker_a2f66b2349ea4529e66696de4b1bb67b = L.circleMarker(
+                [41.3809, 2.1228],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.9354, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_afc114bef717845d60ec152384166203 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6929533c5d8391b614ce3f19ead08e3c = $(`<div id="html_6929533c5d8391b614ce3f19ead08e3c" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Barcelona<br><b>Stadium:</b> Camp Nou<br><b>Capacity:</b> 99354<br><b>City:</b> Barcelona</div>`)[0];
+                popup_afc114bef717845d60ec152384166203.setContent(html_6929533c5d8391b614ce3f19ead08e3c);
+            
+        
+
+        circle_marker_a2f66b2349ea4529e66696de4b1bb67b.bindPopup(popup_afc114bef717845d60ec152384166203)
+        ;
+
+        
+    
+    
+            var circle_marker_8057b2f52fc4dda92486173cfec974cc = L.circleMarker(
+                [40.4362, -3.5994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8456, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_9da4bae36b467775389baf7247cecaf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd9434dc65f43c0991b6b2a30a44f4b5 = $(`<div id="html_bd9434dc65f43c0991b6b2a30a44f4b5" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Atletico Madrid<br><b>Stadium:</b> Wanda Metropolitano<br><b>Capacity:</b> 68456<br><b>City:</b> Madrid</div>`)[0];
+                popup_9da4bae36b467775389baf7247cecaf9.setContent(html_bd9434dc65f43c0991b6b2a30a44f4b5);
+            
+        
+
+        circle_marker_8057b2f52fc4dda92486173cfec974cc.bindPopup(popup_9da4bae36b467775389baf7247cecaf9)
+        ;
+
+        
+    
+    
+            var circle_marker_215638c938f89ffb1ab084ef4eccbdde = L.circleMarker(
+                [37.3841, -5.9703],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.3883, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_6a7b3416b247feb9f585f953b1dc5d13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbb532e2d26f26ceb0da78c4df107d17 = $(`<div id="html_dbb532e2d26f26ceb0da78c4df107d17" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Sevilla<br><b>Stadium:</b> Ramon Sanchez Pizjuan<br><b>Capacity:</b> 43883<br><b>City:</b> Seville</div>`)[0];
+                popup_6a7b3416b247feb9f585f953b1dc5d13.setContent(html_dbb532e2d26f26ceb0da78c4df107d17);
+            
+        
+
+        circle_marker_215638c938f89ffb1ab084ef4eccbdde.bindPopup(popup_6a7b3416b247feb9f585f953b1dc5d13)
+        ;
+
+        
+    
+    
+            var circle_marker_b3d4420bcc43e90d8d6b8d2da5bf0149 = L.circleMarker(
+                [39.4746, -0.3585],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_7793e0dde39ff61e8ec1b2f16ead484f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b831c60b209b2de33a4151562fd64b9 = $(`<div id="html_1b831c60b209b2de33a4151562fd64b9" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Valencia<br><b>Stadium:</b> Mestalla<br><b>Capacity:</b> 49000<br><b>City:</b> Valencia</div>`)[0];
+                popup_7793e0dde39ff61e8ec1b2f16ead484f.setContent(html_1b831c60b209b2de33a4151562fd64b9);
+            
+        
+
+        circle_marker_b3d4420bcc43e90d8d6b8d2da5bf0149.bindPopup(popup_7793e0dde39ff61e8ec1b2f16ead484f)
+        ;
+
+        
+    
+    
+            var circle_marker_2afc143f43dc581042966915a011b484 = L.circleMarker(
+                [43.3018, -1.9731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.95, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_dd1f867e432cafdd533fcf818878bc23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e423dd1ce9e91247c55c1dca2cdec793 = $(`<div id="html_e423dd1ce9e91247c55c1dca2cdec793" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Real Sociedad<br><b>Stadium:</b> Reale Arena<br><b>Capacity:</b> 39500<br><b>City:</b> San Sebastian</div>`)[0];
+                popup_dd1f867e432cafdd533fcf818878bc23.setContent(html_e423dd1ce9e91247c55c1dca2cdec793);
+            
+        
+
+        circle_marker_2afc143f43dc581042966915a011b484.bindPopup(popup_dd1f867e432cafdd533fcf818878bc23)
+        ;
+
+        
+    
+    
+            var circle_marker_ba0a5c9a1980ab0af893a20b72fa1f9d = L.circleMarker(
+                [43.2641, -2.9494],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.3289, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_1bd233cb0f5997292e58b2d8a884a652 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7324dd93d104b0355f8c2646ff8a2c3 = $(`<div id="html_c7324dd93d104b0355f8c2646ff8a2c3" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Athletic Club<br><b>Stadium:</b> San Mames<br><b>Capacity:</b> 53289<br><b>City:</b> Bilbao</div>`)[0];
+                popup_1bd233cb0f5997292e58b2d8a884a652.setContent(html_c7324dd93d104b0355f8c2646ff8a2c3);
+            
+        
+
+        circle_marker_ba0a5c9a1980ab0af893a20b72fa1f9d.bindPopup(popup_1bd233cb0f5997292e58b2d8a884a652)
+        ;
+
+        
+    
+    
+            var circle_marker_d993fd8ed330d9b39384f036f86ac17c = L.circleMarker(
+                [39.9445, -0.1032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.35, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_2c6061946b2e191b7f0132e5ecf9a825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ba868f1967bdc18d94e29b7ac3ba797 = $(`<div id="html_7ba868f1967bdc18d94e29b7ac3ba797" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Villarreal<br><b>Stadium:</b> Estadio de la Ceramica<br><b>Capacity:</b> 23500<br><b>City:</b> Villarreal</div>`)[0];
+                popup_2c6061946b2e191b7f0132e5ecf9a825.setContent(html_7ba868f1967bdc18d94e29b7ac3ba797);
+            
+        
+
+        circle_marker_d993fd8ed330d9b39384f036f86ac17c.bindPopup(popup_2c6061946b2e191b7f0132e5ecf9a825)
+        ;
+
+        
+    
+    
+            var circle_marker_1264eea39e52f4aa07168ec5547ec8af = L.circleMarker(
+                [37.3565, -5.9812],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0721, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_f5fcd766783cdd5fc75036a5c3a93a95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac7e4d34ddedfb85db081c7d54144bbc = $(`<div id="html_ac7e4d34ddedfb85db081c7d54144bbc" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Real Betis<br><b>Stadium:</b> Estadio Benito Villamarin<br><b>Capacity:</b> 60721<br><b>City:</b> Seville</div>`)[0];
+                popup_f5fcd766783cdd5fc75036a5c3a93a95.setContent(html_ac7e4d34ddedfb85db081c7d54144bbc);
+            
+        
+
+        circle_marker_1264eea39e52f4aa07168ec5547ec8af.bindPopup(popup_f5fcd766783cdd5fc75036a5c3a93a95)
+        ;
+
+        
+    
+    
+            var circle_marker_d97046e8a44d2e728de85366a810e815 = L.circleMarker(
+                [39.5893, 2.6502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3142, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_3fbfe244d3dda28bb51edc8c27b119b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c1c206ff7ae66e647752dba7ec1dfd6 = $(`<div id="html_4c1c206ff7ae66e647752dba7ec1dfd6" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Mallorca<br><b>Stadium:</b> Visit Mallorca Estadi<br><b>Capacity:</b> 23142<br><b>City:</b> Palma</div>`)[0];
+                popup_3fbfe244d3dda28bb51edc8c27b119b1.setContent(html_4c1c206ff7ae66e647752dba7ec1dfd6);
+            
+        
+
+        circle_marker_d97046e8a44d2e728de85366a810e815.bindPopup(popup_3fbfe244d3dda28bb51edc8c27b119b1)
+        ;
+
+        
+    
+    
+            var circle_marker_cdca214910f5ef93bf515e302f33015d = L.circleMarker(
+                [40.3918, -3.6588],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4708, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_153c31ad6a6318f0a955ceef720e9c76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ffd3390cda5240c770367a0dd19e44c = $(`<div id="html_0ffd3390cda5240c770367a0dd19e44c" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Rayo Vallecano<br><b>Stadium:</b> Campo de Futbol de Vallecas<br><b>Capacity:</b> 14708<br><b>City:</b> Madrid</div>`)[0];
+                popup_153c31ad6a6318f0a955ceef720e9c76.setContent(html_0ffd3390cda5240c770367a0dd19e44c);
+            
+        
+
+        circle_marker_cdca214910f5ef93bf515e302f33015d.bindPopup(popup_153c31ad6a6318f0a955ceef720e9c76)
+        ;
+
+        
+    
+    
+            var circle_marker_2580d99e0084506662d1ffae24c0097f = L.circleMarker(
+                [42.7951, -1.6376],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3516, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_003abc0286152ebec0884f0449e1d248 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f749a4a76178461f68c68c00246c05c = $(`<div id="html_6f749a4a76178461f68c68c00246c05c" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Osasuna<br><b>Stadium:</b> Estadio El Sadar<br><b>Capacity:</b> 23516<br><b>City:</b> Pamplona</div>`)[0];
+                popup_003abc0286152ebec0884f0449e1d248.setContent(html_6f749a4a76178461f68c68c00246c05c);
+            
+        
+
+        circle_marker_2580d99e0084506662d1ffae24c0097f.bindPopup(popup_003abc0286152ebec0884f0449e1d248)
+        ;
+
+        
+    
+    
+            var circle_marker_312f4c63e5cca86caf5ae7c42e949e56 = L.circleMarker(
+                [40.325, -3.7146],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7393, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_1f3ea96ca2458478eec375bf109e1c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b2f2f5196768f9e73b36063d1f0c913 = $(`<div id="html_6b2f2f5196768f9e73b36063d1f0c913" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Getafe<br><b>Stadium:</b> Coliseum Alfonso Perez<br><b>Capacity:</b> 17393<br><b>City:</b> Getafe</div>`)[0];
+                popup_1f3ea96ca2458478eec375bf109e1c96.setContent(html_6b2f2f5196768f9e73b36063d1f0c913);
+            
+        
+
+        circle_marker_312f4c63e5cca86caf5ae7c42e949e56.bindPopup(popup_1f3ea96ca2458478eec375bf109e1c96)
+        ;
+
+        
+    
+    
+            var circle_marker_55d1cbf8ae360027c8f2c2f851829c6b = L.circleMarker(
+                [42.2118, -8.7392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_64e3c39a5347927fbf2d96f013bb2ebd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b004e32d79106ea9dc83529b5a807f8 = $(`<div id="html_3b004e32d79106ea9dc83529b5a807f8" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Celta Vigo<br><b>Stadium:</b> Balaidos<br><b>Capacity:</b> 29000<br><b>City:</b> Vigo</div>`)[0];
+                popup_64e3c39a5347927fbf2d96f013bb2ebd.setContent(html_3b004e32d79106ea9dc83529b5a807f8);
+            
+        
+
+        circle_marker_55d1cbf8ae360027c8f2c2f851829c6b.bindPopup(popup_64e3c39a5347927fbf2d96f013bb2ebd)
+        ;
+
+        
+    
+    
+            var circle_marker_3e8c5c0e2c5640c223a88a0f0dfd56cc = L.circleMarker(
+                [36.8496, -2.4381],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_33fe058dd44284b65cc7fa0440ed1308 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_003d74a8e396982028fa450d7ab8ddf0 = $(`<div id="html_003d74a8e396982028fa450d7ab8ddf0" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Almeria<br><b>Stadium:</b> Estadio de los Juegos Mediterraneos<br><b>Capacity:</b> 15000<br><b>City:</b> Almeria</div>`)[0];
+                popup_33fe058dd44284b65cc7fa0440ed1308.setContent(html_003d74a8e396982028fa450d7ab8ddf0);
+            
+        
+
+        circle_marker_3e8c5c0e2c5640c223a88a0f0dfd56cc.bindPopup(popup_33fe058dd44284b65cc7fa0440ed1308)
+        ;
+
+        
+    
+    
+            var circle_marker_17c1370eb6c585e3e5b66cc519315c49 = L.circleMarker(
+                [37.1463, -3.6025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3156, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_7ecbc31567edaeb187973d5af2762f16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d39fe8c99dc186e9d0ca4dfbecc9f42e = $(`<div id="html_d39fe8c99dc186e9d0ca4dfbecc9f42e" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Granada<br><b>Stadium:</b> Estadio Nuevo Los Carmenes<br><b>Capacity:</b> 23156<br><b>City:</b> Granada</div>`)[0];
+                popup_7ecbc31567edaeb187973d5af2762f16.setContent(html_d39fe8c99dc186e9d0ca4dfbecc9f42e);
+            
+        
+
+        circle_marker_17c1370eb6c585e3e5b66cc519315c49.bindPopup(popup_7ecbc31567edaeb187973d5af2762f16)
+        ;
+
+        
+    
+    
+            var circle_marker_fa46e8db8a6d737bbb853ce961b639ca = L.circleMarker(
+                [28.1248, -15.43],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.25, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_a62e7e665ae7f9ded30bdf653febe159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a0f5863c79d335722e769c41b6e41d = $(`<div id="html_69a0f5863c79d335722e769c41b6e41d" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Las Palmas<br><b>Stadium:</b> Estadio Gran Canaria<br><b>Capacity:</b> 32500<br><b>City:</b> Las Palmas</div>`)[0];
+                popup_a62e7e665ae7f9ded30bdf653febe159.setContent(html_69a0f5863c79d335722e769c41b6e41d);
+            
+        
+
+        circle_marker_fa46e8db8a6d737bbb853ce961b639ca.bindPopup(popup_a62e7e665ae7f9ded30bdf653febe159)
+        ;
+
+        
+    
+    
+            var circle_marker_d785e7c11b1495fd7d9150fd040e4f7a = L.circleMarker(
+                [41.963, 2.8374],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.35, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_ec466304db6a00e3bb6ffb0395687d27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1d32a47a4764433026bd8ececa75555 = $(`<div id="html_d1d32a47a4764433026bd8ececa75555" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Girona<br><b>Stadium:</b> Estadi Montilivi<br><b>Capacity:</b> 13500<br><b>City:</b> Girona</div>`)[0];
+                popup_ec466304db6a00e3bb6ffb0395687d27.setContent(html_d1d32a47a4764433026bd8ececa75555);
+            
+        
+
+        circle_marker_d785e7c11b1495fd7d9150fd040e4f7a.bindPopup(popup_ec466304db6a00e3bb6ffb0395687d27)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2b2f332870a2a56d39ebc26dba451b = L.circleMarker(
+                [36.5083, -6.2722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_11783c1e2307daa53832dfea9f98e118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa2738b79b80224a9e5e83d90ffba53 = $(`<div id="html_7aa2738b79b80224a9e5e83d90ffba53" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Cadiz<br><b>Stadium:</b> Estadio Nuevo Mirandilla<br><b>Capacity:</b> 20000<br><b>City:</b> Cadiz</div>`)[0];
+                popup_11783c1e2307daa53832dfea9f98e118.setContent(html_7aa2738b79b80224a9e5e83d90ffba53);
+            
+        
+
+        circle_marker_1f2b2f332870a2a56d39ebc26dba451b.bindPopup(popup_11783c1e2307daa53832dfea9f98e118)
+        ;
+
+        
+    
+    
+            var circle_marker_9e78dfd130dfbd5d939574510ae6f3a2 = L.circleMarker(
+                [38.2668, -0.663],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1088, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_6b6d5ac3e2fe2716bc21622315ad21f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f926271dcd3cc8b07cee04022dd1c53b = $(`<div id="html_f926271dcd3cc8b07cee04022dd1c53b" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Elche<br><b>Stadium:</b> Estadio Manuel Martinez Valero<br><b>Capacity:</b> 31088<br><b>City:</b> Elche</div>`)[0];
+                popup_6b6d5ac3e2fe2716bc21622315ad21f1.setContent(html_f926271dcd3cc8b07cee04022dd1c53b);
+            
+        
+
+        circle_marker_9e78dfd130dfbd5d939574510ae6f3a2.bindPopup(popup_6b6d5ac3e2fe2716bc21622315ad21f1)
+        ;
+
+        
+    
+    
+            var circle_marker_081381ba1c8ac5ee711c84b3dc1bb72b = L.circleMarker(
+                [42.8498, -2.6813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.984, "stroke": true, "weight": 3}
+            ).addTo(map_ca6a381ea0149156c9abfe1d7152871a);
+        
+    
+        var popup_ad2b473b96636f592804e4b8196858a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4105c5b559ad710d967bf4b076ad2655 = $(`<div id="html_4105c5b559ad710d967bf4b076ad2655" style="width: 100.0%; height: 100.0%;"><b>Team:</b> Deportivo Alaves<br><b>Stadium:</b> Mendizorrotza<br><b>Capacity:</b> 19840<br><b>City:</b> Vitoria-Gasteiz</div>`)[0];
+                popup_ad2b473b96636f592804e4b8196858a3.setContent(html_4105c5b559ad710d967bf4b076ad2655);
+            
+        
+
+        circle_marker_081381ba1c8ac5ee711c84b3dc1bb72b.bindPopup(popup_ad2b473b96636f592804e4b8196858a3)
+        ;
+
+        
+    
+</script>
+</html>
