@@ -1,5 +1,5 @@
-# La Liga 2023/24: Players and Team Insights
-## Machine-Learning-and-Insights-for-La-Liga-2023-24
+# La Liga 2023/24: Data Insights and Analytics
+## Machine Learning and Insights for La Liga 2023/24
 
 
 ![La Liga 2023/24](images/laliga-2023-2024.jpg)
@@ -50,45 +50,23 @@ This project contains several Jupyter notebooks, each focusing on a specific asp
 
 ## Notebook Titles and Descriptions
 
-### `la_liga_EDA.ipynb`
+### `la_liga_matches.ipynb`
 **Exploratory Data Analysis (EDA) of La Liga 2023/24:**  
 Unveiling trends and patterns in team and player performance metrics.
 
 ---
 
-### `la_liga_data_processing.ipynb`
+### `la_liga_players.ipynb`
 **Data Integration and Cleaning:**  
 Preparing and merging team-level and player-level datasets for analysis.
 
 ---
 
-### `la_liga_visualizations.ipynb`
+### `la_liga_teams.ipynb`
 **Visual Insights:**  
 Creating visual representations of key performance metrics for teams and players.
 
 ---
-
-### `la_liga_ml_modeling.ipynb`
-**Machine Learning for Football Analytics:**  
-Predicting team performance and player contributions using ML models.
-
----
-
-### `la_liga_feature_engineering.ipynb`
-**Feature Engineering:**  
-Creating and optimizing features for predictive modeling.
-
----
-
-### `la_liga_results_analysis.ipynb`
-**Results and Interpretations:**  
-Analyzing model outputs and deriving actionable insights from predictions.
-
----
-
-### `la_liga_clustering.ipynb`
-**Team and Player Clustering:**  
-Grouping similar entities based on performance metrics.
 
 
 ## Methodology
