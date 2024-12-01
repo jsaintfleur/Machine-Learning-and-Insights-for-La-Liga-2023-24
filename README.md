@@ -2,7 +2,7 @@
 ## Machine Learning and Insights for La Liga 2023/24
 
 
-![La Liga 2023/24](images/laliga-2023-2024.jpg)
+![La Liga 2023/24](laliga-2023-2024.jpg)
 
 ## Introduction
 
