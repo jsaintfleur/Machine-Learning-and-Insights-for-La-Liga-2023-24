@@ -227,27 +227,33 @@ Together, these datasets form a robust foundation for exploring La Liga's dynami
 - **`notebooks/`**: Jupyter notebooks with code for EDA, data cleaning, and analysis.
 - **`images/`**: Contains visual assets like charts, graphs, and the La Liga banner.
 
-# Project Notebooks
-
-This project contains several Jupyter notebooks, each focusing on a specific aspect of analyzing and modeling data from the La Liga 2023/24 season.
+---
 
 ## Notebook Titles and Descriptions
 
 ### `la_liga_matches.ipynb`
-**Exploratory Data Analysis (EDA) of La Liga 2023/24:**  
-Unveiling trends and patterns in team and player performance metrics.
-
----
+**Purpose**: Analyzing match-level data from the La Liga 2023/24 season.  
+- **Key Features**:
+  - Exploratory Data Analysis (EDA) of match outcomes, including home and away performances.
+  - Calculation of key match statistics, such as total goals, goal differences, and match outcomes.
+  - Visualizations of trends, such as scoring patterns across matchdays.
+  - Insights into team strategies and their influence on match results.
 
 ### `la_liga_players.ipynb`
-**Data Integration and Cleaning:**  
-Preparing and merging team-level and player-level datasets for analysis.
-
----
+**Purpose**: Examining individual player performance metrics.  
+- **Key Features**:
+  - EDA on player-level data, including goals, assists, clean sheets, and disciplinary records.
+  - Advanced metrics like expected goals (xG) and expected assists (xA).
+  - Clustering players based on roles and contributions, such as goal-scorers, playmakers, and defenders.
+  - Identification of top-performing players across various metrics.
 
 ### `la_liga_teams.ipynb`
-**Visual Insights:**  
-Creating visual representations of key performance metrics for teams and players.
+**Purpose**: Evaluating team-level statistics and their impact on league standings.  
+- **Key Features**:
+  - Analysis of offensive and defensive metrics, including goals scored, goals conceded, and clean sheets.
+  - Insights into possession, passing accuracy, and discipline metrics at the team level.
+  - Visualization of team performance trends over the season.
+  - Comparison of home vs. away performances to uncover strategic strengths and weaknesses.
 
 ---
 
