@@ -1,22 +1,21 @@
-Team,Stadium Name,City,Latitude,Longitude,Capacity
-Real Madrid,Santiago Bernabeu,Madrid,40.4531,-3.6884,81044
-Barcelona,Camp Nou,Barcelona,41.3809,2.1228,99354
-Atletico Madrid,Wanda Metropolitano,Madrid,40.4362,-3.5994,68456
-Sevilla,Ramon Sanchez Pizjuan,Seville,37.3841,-5.9703,43883
-Valencia,Mestalla,Valencia,39.4746,-0.3585,49000
-Real Sociedad,Reale Arena,San Sebastian,43.3018,-1.9731,39500
-Athletic Club,San Mames,Bilbao,43.2641,-2.9494,53289
-Villarreal,Estadio de la Ceramica,Villarreal,39.9445,-0.1032,23500
-Real Betis,Estadio Benito Villamarin,Seville,37.3565,-5.9812,60721
-Mallorca,Visit Mallorca Estadi,Palma,39.5893,2.6502,23142
-Rayo Vallecano,Campo de Futbol de Vallecas,Madrid,40.3918,-3.6588,14708
-Osasuna,Estadio El Sadar,Pamplona,42.7951,-1.6376,23516
-Getafe,Coliseum Alfonso Perez,Getafe,40.3250,-3.7146,17393
-Celta Vigo,Balaidos,Vigo,42.2118,-8.7392,29000
-Almeria,Estadio de los Juegos Mediterraneos,Almeria,36.8496,-2.4381,15000
-Granada,Estadio Nuevo Los Carmenes,Granada,37.1463,-3.6025,23156
-Las Palmas,Estadio Gran Canaria,Las Palmas,28.1248,-15.4300,32500
-Girona,Estadi Montilivi,Girona,41.9630,2.8374,13500
-Cadiz,Estadio Nuevo Mirandilla,Cadiz,36.5083,-6.2722,20000
-Elche,Estadio Manuel Martinez Valero,Elche,38.2668,-0.6630,31088
-Deportivo Alaves,Mendizorrotza,Vitoria-Gasteiz,42.8498,-2.6813,19840
+Team,Stadium Name,City,Latitude,Longitude,Capacity,Average Attendance
+Almeria,Estadio de los Juegos Mediterraneos,Almeria,36.8496,-2.4381,18331,12893
+Athletic Club,San Mames,Bilbao,43.2641,-2.9494,53289,46112
+Atletico Madrid,Wanda Metropolitano,Madrid,40.4362,-3.5994,70460,59731
+Barcelona,Camp Nou,Barcelona,41.3809,2.1228,49472,39846
+Cadiz,Estadio Nuevo Mirandilla,Cadiz,36.5083,-6.2722,20724,18016
+Celta Vigo,Balaidos,Vigo,42.2118,-8.7392,29000,20039
+Deportivo Alaves,Mendizorrotza,Vitoria-Gasteiz,42.8498,-2.6813,19840,17391
+Getafe,Coliseum Alfonso Perez,Getafe,40.325,-3.7146,16500,11456
+Girona,Estadi Montilivi,Girona,41.963,2.8374,13400,12520
+Granada,Estadio Nuevo Los Carmenes,Granada,37.1463,-3.6025,19189,16350
+Las Palmas,Estadio Gran Canaria,Las Palmas,28.1248,-15.43,31250,25041
+Mallorca,Visit Mallorca Estadi,Palma,39.5893,2.6502,23142,17767
+Osasuna,Estadio El Sadar,Pamplona,42.7951,-1.6376,23576,19703
+Rayo Vallecano,Campo de Futbol de Vallecas,Madrid,40.3918,-3.6588,14708,12758
+Real Betis,Estadio Benito Villamarin,Seville,37.3565,-5.9812,60721,51175
+Real Madrid,Santiago Bernabeu,Madrid,40.4531,-3.6884,83186,72061
+Real Sociedad,Reale Arena,San Sebastian,43.3018,-1.9731,39500,31710
+Sevilla,Ramon Sanchez Pizjuan,Seville,37.3841,-5.9703,43883,35494
+Valencia,Mestalla,Valencia,39.4746,-0.3585,49430,43420
+Villarreal,Estadio de la Ceramica,Villarreal,39.9445,-0.1032,23008,17957
